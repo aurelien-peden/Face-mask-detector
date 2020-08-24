@@ -1,30 +1,29 @@
-# Installation des packages
+# Install packages
 ```
 pip3 -r install requirements.txt
 ```
-Si cela ne fonctionne pas, recommencer avec la distribution Anaconda d'installer : https://www.anaconda.com/products/individual
-# Tester la détection sur une image
+If it doesn't works, try with Anaconda : https://www.anaconda.com/products/individual
+# Try the face mask detection on a picture
 ```
 python face_detector --image ./Examples/<image>
 ```
 
-# Tester la détection sur une vidéo/webcam
-Si l'argument vidéo n'est pas fourni, la détection se lance automatiquement sur la caméra
+# Try the face mask detection on a video or a camera
+If no arguments are provided, the detection is done on the camera
 ```
 python face_detector_video [--video./Examples/<video>] 
 ```
 
-# Démarrer le serveur flask
-## Sur Windows
-Dans le répertoire flask_serv
+# Start the Flask server
+## On Windows
+In the flask_serv folder
 ```
 set FLASK_APP=main.py
 flask run
 ```
-## Sur Linux
+## On Linux
 ```
 export FLASK_APP=main.py
 flask run
 ```
-
-L'exécution du jupyter notebook nécessite l'utilisation d'une carte graphique dédiée. Le modèle déjà entraîné est fourni avec le fichier face_mask.model.
+The trained model has been saved in the face_mask.model file.
