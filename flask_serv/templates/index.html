@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Face mask detection</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 35%
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+        app-root {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        #bg {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <app-root>
+        <!-- Navbar -->
+        <header>
+            <nav>
+                <div class="nav-wrapper blue">
+                    <a href="#" class="brand-logo center">Face Mask App</a>
+                </div>
+            </nav>
+        </header>
+
+
+        <!-- Main content -->
+        <main>
+            <img id="bg" class="center" src="{{ url_for('video_feed') }}">
+        </main>
+
+
+        <!-- Footer -->
+        <footer class="page-footer blue">
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2020 Aurélien Peden
+                </div>
+            </div>
+        </footer>
+    </app-root>
+</body>
+
+</html>
