@@ -28,6 +28,10 @@ flask run
 ```
 The trained model has been saved in the face_mask.model file.
 
-## Acknowledgements
+# Project Report and Presentation Slides (In French)
+[Project Report](Rapport projet IA masque Aurélien Peden.pdf)
+[Presentation Slides](AI Port du masque slides.pptx)
+
+# Acknowledgements
 * Pyimagesearch.com
 * Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems book
