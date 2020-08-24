@@ -1,3 +1,7 @@
+# Description
+Proof of concept made during an internship at Paris 12 Val de Marne University.
+Developed a proof of concept web app using Flask to localize faces with OpenCV and detect if a person is wearing a face mask in a picture or a video. Used a dataset of +1000 images of people wearing face mask and reached an accuracy of 97% using Transfer Learning with MobileNet-v2 and TensorFlow 2.0/Keras. Project, report and slides used by teachers in classes for next year’s students.
+
 # Install packages
 ```
 pip3 -r install requirements.txt
