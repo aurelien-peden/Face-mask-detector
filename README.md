@@ -29,8 +29,8 @@ flask run
 The trained model has been saved in the face_mask.model file.
 
 # Project Report and Presentation Slides (In French)
-[Project Report](Rapport projet IA masque Aurélien Peden.pdf)
-[Presentation Slides](AI Port du masque slides.pptx)
+[Project Report]("Rapport projet IA masque Aurélien Peden.pdf")
+[Presentation Slides]("AI Port du masque slides.pptx")
 
 # Acknowledgements
 * Pyimagesearch.com
